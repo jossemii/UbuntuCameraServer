@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Listado de Videos</h1>
+    <ul>
+        {% for video_file in video_files %}
+        <li><a href="{{ url_for('stream_video', filename=video_file) }}">{{ video_file }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
