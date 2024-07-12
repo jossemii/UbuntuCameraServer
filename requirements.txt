@@ -1,1 +1,2 @@
-opencv-python4.0.0.84
+opencv-python==4.0.0.84
+flask==3.0.3
